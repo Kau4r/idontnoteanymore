@@ -1,0 +1,53 @@
+/* General Reset */
+html,
+body {
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Arial', 'Helvetica', sans-serif; /* Default font stack */
+  color: #333; /* Default text color */
+  line-height: 1.6; /* Improve readability */
+}
+
+/* Headings Styles */
+h1 {
+  font-family: 'Montserrat', sans-serif; /* Professional font for main headings */
+  font-size: 2.5rem; /* Responsive size */
+  font-weight: 700; /* Bold weight */
+  color: #222; /* Darker color for contrast */
+  margin: 20px 0; /* Spacing around headings */
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif; /* Clean font for subheadings */
+  font-size: 2rem;
+  font-weight: 600;
+  color: #444;
+  margin: 15px 0;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif; /* Lighter font for smaller headings */
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Paragraph Styles */
+p {
+  font-family: 'Georgia', serif; /* Serif for body text for elegance */
+  font-size: 1rem; /* Standard readable size */
+  color: #555; /* Slightly lighter than the heading color */
+  margin-bottom: 15px; /* Space between paragraphs */
+}
+
+/* Link Styles */
+a {
+  color: #007bff; /* Primary link color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover for clarity */
+}

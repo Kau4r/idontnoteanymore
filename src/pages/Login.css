@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#root{
+  background-color: #ede8ca;
+}
+
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  transform: translateY(-90px); /* Move the form up by 20px */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 300px;
+  width: 100%;
+  transform: translateY(-30px); /* Move the form up by 20px */
+}
+
+/* Button Styles */
+.button {
+  width: 100%; /* Full width of its container */
+  padding: 12px 20px; /* Vertical and horizontal padding */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Makes the text bold */
+  color: white; /* Text color */
+  background-color: #1183b1; /* Primary button color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline from link */
+  text-align: center; /* Center text */
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+  background-color: #0b6b91; /* Darker shade on hover */
+}
+
+/* Input Container Styles */
+.inputcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: inherit;
+  gap: 5px;
+}
+
+/* Input Field Styles */
+input {
+  width: 100%; /* Full width of its container */
+  padding: 12px 15px; /* Padding for comfort */
+  font-size: 16px; /* Font size */
+  color: #333; /* Text color */
+  background-color: #ffffff; /* White background */
+  border: 1px solid #d1d1d1; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+/* Focus State for Input Fields */
+input:focus {
+  border-color: #1183b1; /* Blue border on focus */
+  box-shadow: 0 0 8px rgba(0, 122, 255, 0.5); /* Glow effect on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Placeholder Styles for Input Fields */
+input::placeholder {
+  color: #aaa; /* Placeholder color */
+}
+
+.sign {
+  display: flex;
+  justify-content: left;
+}
+
+.gap {
+  display: grid;
+  width: inherit;
+  gap: 1rem;
+}
+
+.image{
+  width: 100%; /* Responsive width */
+  max-width: 300px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.color{
+  color:#00638a;
+}
+
+.color:hover{
+  color:#26aadf;
+}
